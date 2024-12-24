@@ -1,0 +1,21 @@
+# Ignore environment variables
+.env
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore log files
+*.log
+
+# Ignore text files
+*.txt
+
+# Ignore other temporary or backup files
+*.bak
+*.ini
+
+./gradlew clean build
