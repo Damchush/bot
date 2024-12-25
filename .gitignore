@@ -1,21 +1,24 @@
-# Ignore environment variables
-.env
+# Игнорирај ги сите фајлови во AppData/ (безбедност)
+AppData/
 
-# Ignore Python bytecode files
-*.pyc
-__pycache__/
+# Игнорирај ги документите на корисникот
+Documents/
 
-# Ignore virtual environment folder
-venv/
+# Игнорирај ги фајловите за историја на Bash
+.bash_history
 
-# Ignore log files
-*.log
+# Игнорирај ги податоците за Node.js
+node/
 
-# Ignore text files
-*.txt
+# Игнорирај ги фајловите за конфигурација на Git
+.gitconfig
 
-# Ignore other temporary or backup files
-*.bak
-*.ini
+# Игнорирај ги сите времено зачувани податоци и кешови
+.cache/
+.pm2/
 
-./gradlew clean build
+# Игнорирај ги поврзаните линкови и програми
+*.lnk
+
+# Игнорирај ги лог фајловите на корисникот
+ntuser.dat*
